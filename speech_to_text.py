@@ -3,7 +3,7 @@ import pyttsx3
 import speech_recognition as sr
 import openai
 import textwrap
-openai.api_key = "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"
+openai.api_key = #your open api key
 engine = pyttsx3.init()
 engine.setProperty('rate', 150) # Speed in wpm
 engine.setProperty('volume', 1) # Volume (0-1)
